@@ -1,0 +1,8 @@
+enable
+config t
+interface serial 0/1 OR fastethernet 0/1
+ip address 192.168.1.1 255.255.255.0
+(with serial) clock rate 64000
+no sh
+exit
+do wr

@@ -1,0 +1,5 @@
+enable
+show ip route
+config t
+ip route (network address) (subnet mask) (next hop)
+do wr
